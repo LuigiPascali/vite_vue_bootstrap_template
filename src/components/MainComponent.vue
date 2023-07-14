@@ -1,28 +1,27 @@
 <script>
-  export default {
+export default {
+    name: "MainComponent",
     data() {
-      return {
-        title: 'Main Component',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      };
-    },
-  };
-</script>
- 
-<template>
+        return {
 
-    <main class="main">
-      <h2>{{ title }}</h2>
-      <p>{{ content }}</p>
+        }
+    },
+    methods: {
+
+    }
+}
+</script>
+
+<template>
+    <main>
+        MAIN
     </main>
-    
 </template>
 
-<style>
+<style lang="scss" scoped>
+@use "../assets/scss/partials/variables.scss" as *;
 
-  .main {
-    padding: 20px;
-  }
-
+main {
+    padding: $main-padding;
+}
 </style>
-  

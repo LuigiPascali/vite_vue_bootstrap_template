@@ -1,33 +1,30 @@
 <script>
-  import HeaderComponent from './components/HeaderComponent.vue';
-  import MainComponent from './components/MainComponent.vue';
-  import FooterComponent from './components/FooterComponent.vue';
+import HeaderComponent from "./components/HeaderComponent.vue";
+import MainComponent from "./components/MainComponent.vue";
+import FooterComponent from "./components/FooterComponent.vue";
 
-  import '../src/styles.scss';
-
-  export default {
-    components: {
-      HeaderComponent,
-      MainComponent,
-      FooterComponent,
-    },
-  };
+export default {
+  name: "App",
+  components: {
+    HeaderComponent,
+    MainComponent,
+    FooterComponent,
+  },
+  data() {
+    return {};
+  },
+  methods: {},
+};
 </script>
 
 <template>
+  <HeaderComponent />
 
-  <div id="app">
-    <HeaderComponent />
-    <MainComponent />
-    <FooterComponent />
-  </div>
+  <MainComponent />
 
+  <FooterComponent />
 </template>
 
-<style>
-  #app {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
+<style lang="scss">
+@use "assets/scss/main";
 </style>

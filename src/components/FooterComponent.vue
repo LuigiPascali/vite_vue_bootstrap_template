@@ -1,27 +1,27 @@
 <script>
-  export default {
+export default {
+    name: "FooterComponent",
     data() {
-      return {
-        text: 'Footer Component',
-      };
+        return {
+
+        }
     },
-  };
+    methods: {
+
+    }
+}
 </script>
 
 <template>
-
-    <footer class="footer">
-      <p>{{ text }}</p>
+    <footer>
+        FOOTER
     </footer>
-    
 </template>
-  
-<style>
 
-  .footer {
-    background-color: #f8f9fa;
-    padding: 20px;
-  }
-
+<style lang="scss" scoped>
+footer {
+    padding: 40px;
+    text-align: center;
+}
 </style>
   

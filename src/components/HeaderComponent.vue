@@ -1,29 +1,26 @@
 <script>
-
-  export default {
+export default {
+    name: "HeaderComponent",
     data() {
-      return {
-        title: 'Header Component',
-      };
-    },
-  };
+        return {
 
+        }
+    },
+    methods: {
+
+    }
+}
 </script>
 
 <template>
-
-    <header class="header">
-      <h1>{{ title }}</h1>
+    <header>
+        HEADER
     </header>
-    
 </template>
-  
-<style>
 
-  .header {
-    background-color: #f8f9fa;
-    padding: 20px;
-  }
-
+<style lang="scss" scoped>
+header {
+    padding: 40px;
+    text-align: center;
+}
 </style>
-  
