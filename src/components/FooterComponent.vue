@@ -1,21 +1,23 @@
 <script>
-export default {
-    name: "FooterComponent",
-    data() {
-        return {
 
-        }
-    },
-    methods: {
+    export default {
+        name: "FooterComponent",
+        data() {
+            return {
 
-    },
-    components: {
-        //dichiarazione
-    },
-    props:{
-        //utilizzo per file padre
-    },
-}
+            }
+        },
+        methods: {
+
+        },
+        components: {
+            //dichiarazione
+        },
+        props:{
+            //utilizzo per file padre
+        },
+    }
+    
 </script>
 
 <template>

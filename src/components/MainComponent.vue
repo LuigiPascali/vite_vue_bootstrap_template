@@ -1,21 +1,23 @@
 <script>
-export default {
-    name: "MainComponent",
-    data() {
-        return {
 
-        }
-    },
-    methods: {
+    export default {
+        name: "MainComponent",
+        data() {
+            return {
 
-    },
-    components: {
-        //dichiarazione
-    },
-    props:{
-        //utilizzo per file padre
-    },
-}
+            }
+        },
+        methods: {
+
+        },
+        components: {
+            //dichiarazione
+        },
+        props:{
+            //utilizzo per file padre
+        },
+    }
+    
 </script>
 
 <template>
@@ -33,5 +35,5 @@ export default {
     main {
         padding: $main-padding;
     }
-    
+
 </style>
